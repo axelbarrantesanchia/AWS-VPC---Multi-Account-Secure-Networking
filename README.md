@@ -39,7 +39,7 @@ This repository documents how I designed and deployed a network architecture on 
 <!-- -------------------------------------------------- -->
    - SG for ELB and SG for Private Instances (allowing ELB and SSH from test instance)
 <!-- -------------------------------------------------- --> 
-6.  [Configure Application Load Balancer)](#configure-application-load-balancer)  
+6. ⚖ [Configure Application Load Balancer)](#configure-application-load-balancer)  
 <!-- -------------------------------------------------- -->
 7. ⚙ [Create Launch Template for Auto Scaling Group (ASG)](#create-launch-template-for-auto-scaling-group-asg)  
 <!-- -------------------------------------------------- -->
