@@ -331,7 +331,7 @@ Select t2.micro, assign private instance SG, and add User Data script to start H
 Now, the Launch Template is ready and associated with the ASG.
 <!-- -------------------------------------------------- -->
 ⸻
-
+## Create Auto Scaling Group (ASG)
 Configure network settings:
 	•	VPC
 	•	Private subnets
