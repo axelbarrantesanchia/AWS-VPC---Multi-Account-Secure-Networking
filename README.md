@@ -104,7 +104,7 @@ First, we must set up Account A, so let’s get started.
 <!-- -------------------------------------------------- -->
 In Account A, we are going to create a VPC called “VPC ACC A”. We will use the 10.0.0.0/16 CIDR, which provides around 65,536 IPs. We won’t use IPv6 for this project.
 <!-- -------------------------------------------------- -->
-![Paso 1](vpc-pasos/VPC CREATION.png)  
+![Paso 1](vpc-pasos/VPC-CREATION.png)  
 <!-- -------------------------------------------------- -->
 Note: Tenancy determines how our instances are placed on hardware. If we choose Default, we will share hardware with other AWS customers. If we choose Dedicated, we will have isolated hardware.
 <!-- -------------------------------------------------- -->
@@ -127,7 +127,7 @@ The following IPs are reserved by AWS:
 	•	10.0.0.3 Reserved for future use
 	•	10.0.0.255 Network broadcast (AWS does not support broadcast in a VPC)
 <!-- -------------------------------------------------- -->
-![Paso 2](vpc-pasos/ VPC-CREATION-2.png)  
+![Paso 2](vpc-pasos/VPC-CREATION-2.png)  
 <!-- -------------------------------------------------- -->
 We won’t use NAT Gateways or VPC Endpoints in this VPC.
 <!-- -------------------------------------------------- -->
@@ -135,11 +135,11 @@ We won’t use NAT Gateways or VPC Endpoints in this VPC.
 <!-- -------------------------------------------------- -->
 Now our VPC has been created:
 <!-- -------------------------------------------------- -->
-![Paso 3](vpc-pasos/ VPC-created.png)  
+![Paso 3](vpc-pasos/VPC-created.png)  
 <!-- -------------------------------------------------- -->
 This is a diagram of our VPC provided by AWS:
 <!-- -------------------------------------------------- -->
-![Paso 4](vpc-pasos/ VPC-COMPONENTS.png)  
+![Paso 4](vpc-pasos/VPC-COMPONENTS.png)  
 <!-- -------------------------------------------------- -->
 ⸻
 
@@ -159,7 +159,7 @@ Note: We will also create a custom AMI from this Bastion Host for future private
 
 For the Instance Type, we will use t2.micro and proceed without a key pair.
 <!-- -------------------------------------------------- -->
-![Paso 6](vpc-pasos/ Bastion-v2.png)  
+![Paso 6](vpc-pasos/Bastion-v2.png)  
 <!-- -------------------------------------------------- -->
 ⸻
 
