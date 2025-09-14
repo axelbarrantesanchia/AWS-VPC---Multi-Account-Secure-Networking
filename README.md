@@ -619,7 +619,7 @@ Even though we created the bucket, we still need a bucket policy to allow cross-
 <!-- -------------------------------------------------- -->
 The statement "s3:x-amz-acl": "bucket-owner-full-control" guarantees that all logs written will remain under the full control of the bucket owner.
 <!-- -------------------------------------------------- -->
-![Paso 62](vpc-pasos/VPC-flow-logs-bucket-created.png)  
+![Paso 62](vpc-pasos/Bucket-policy-VPC-flow-logs-cross-account.png)  
 <!-- -------------------------------------------------- -->
 In the second statement, we allow Account B to list and read the bucket and its ACLs. This ensures logs are placed in the correct location and verifies that the bucket is owned by the right account with the correct permissions.
 <!-- -------------------------------------------------- -->
