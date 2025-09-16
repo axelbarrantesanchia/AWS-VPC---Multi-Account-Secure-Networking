@@ -151,7 +151,7 @@ We will call it “Bastion Host”, because this instance will help us troublesh
 <!-- -------------------------------------------------- -->
 We will use an Amazon Linux AMI as the operating system.
 <!-- -------------------------------------------------- -->
-![Paso 5](vpc-pasos/ Bastion-Creation.png)  
+![Paso 5](vpc-pasos/Bastion-Creation.png)  
 <!-- -------------------------------------------------- -->
 Note: We will also create a custom AMI from this Bastion Host for future private instances.
 <!-- -------------------------------------------------- -->
@@ -219,7 +219,7 @@ We open the HTTP port from anywhere in our SG. HTTP traffic must be explicitly a
 <!-- -------------------------------------------------- -->
 Now the HTTP page is accessible:
 <!-- -------------------------------------------------- -->
-![Paso 13](vpc-pasos/ EC2-WORKING.png)  
+![Paso 13](vpc-pasos/EC2-WORKING.png)  
 <!-- -------------------------------------------------- -->
 ⸻
 
